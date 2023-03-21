@@ -38,6 +38,7 @@ main
 {
     display: flex;
     justify-content: space-between;
+    margin: 0 5px;
 }
 header ul
 {
@@ -47,7 +48,7 @@ header ul
     gap: 20px;
 }
 
-header a
+a
 {
     text-decoration: none;
     color: #fff;
@@ -55,7 +56,7 @@ header a
     transition: all 0.3s;
 }
 
-header a:hover
+a:hover
 {
     color: rgb(170, 170, 170);
     transform: translateY(20px);
