@@ -9,15 +9,36 @@ body
 
 header
 {
-    background: #2F435A;
+    background: #293f56;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
     flex-wrap: wrap;
+    color: #fff;
 } 
 
+main
+{
+    margin: auto;
+}
+
+.contents
+{
+    color: #fff;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contents h1 {margin-bottom: 0px;}
+.contents h2 {margin-top: 0px;}
+
+.spit
+{
+    display: flex;
+    justify-content: space-between;
+}
 header ul
 {
     list-style: none;
@@ -62,6 +83,7 @@ header a:hover
 
 @media screen and (max-width: 600px)
 {
+
     .hamburger
     {
         margin-left: auto;
