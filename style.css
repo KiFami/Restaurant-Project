@@ -44,12 +44,6 @@ header a:hover
 {
     display: none;
 }
-
-.hamburger 
-{
-    display: inline-block;
-    cursor: pointer;
-}
   
 .bar1, .bar2, .bar3 
 {
