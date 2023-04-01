@@ -124,3 +124,15 @@ a:hover
         max-height: 100%;
     }
 }
+
+.town
+{
+    position: relative;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 30px;
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto;
+}
