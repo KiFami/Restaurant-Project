@@ -21,14 +21,39 @@
         </label>
         <div class="menu">
             <ul class="list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./delivery.html">Delivery</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#" class="active" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('menu')">Menu</a></li>
+                <li><a href="#" onclick="showPage('dostawa')">Delivery</a></li>
+                <li><a href="#" onclick="showPage('kontakt')">Contact</a></li>
             </ul>
         </div> 
     </header>
+	<main>
+    <div id="home" class="page">
+      <h1>HOME</h1>
+    </div>
+    <!--HOME-->
+      <div id="menu" class="page">
+            <h1>THE MENU</h1>
+            <div class="spit">
+                <h3><a href="#main-courses">Main Courses</a></h3>
+                <h3><a href="#Pizza">Pizza</a></h3>
+                <h3><a href="#Desserts">Desserts</a></h3>
+                <h3><a href="#Drinks">Drinks</a></h3>
+            </div>
+      </div>
+    <!--O-NAS-->
+      <div id="dostawa" class="page">
+        <h1>O nas</h1>
+        <p>Tutaj możesz dodać informacje o swojej firmie lub organizacji.</p>
+      </div>
+    <!--KONTAKT-->
+      <div id="kontakt" class="page">
+        <h1>Kontakt</h1>
+        <p>Tutaj możesz dodać swoje dane kontaktowe, takie jak adres e-mail i numer telefonu.</p>
+      </div>
+    </main>
     <script src="script.js"></script>
-    <noscript> Sorry, your browser does not support JavaScript! </noscript>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
 </body>
 </html>
